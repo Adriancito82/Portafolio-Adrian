@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family= Big+Shoulders+Display:wght@700 & family= Lexend+Deca &familia= Roboto:peso@700 & display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    background-image: radial-gradient(circle at center, #406ac4 0%, #3e66bb 6%, #1b263e 100%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1.titulo {
+    font-size: 3rem;
+}
+img.imagen {
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    border-radius: 1rem;
+}
+article p {
+    width: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+p.texto_iconos{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-weight: bold;
+}
+section.iconos {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: .5rem;
+}
+nav.link p {
+    font-size: 2rem;
+}
+nav.link a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+section.contacto {
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: .5rem;
+}
+section.contacto a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 2rem;
+}
+footer {
+    width: 100%;
+    padding-top: .5rem;
+    text-align: center;
+    color: grey;
+}
