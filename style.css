@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 html, body {
     width: 100%;
@@ -11,6 +12,9 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main.container {
+    width: 100vw;
 }
 section.header {
     display: flex;
@@ -29,8 +33,8 @@ img.imagen {
     border-radius: 1rem;
 }
 article.texto_principal p.texto {
-    max-width: 960px;
-    width: auto;
+    max-width: 951px;
+    width: 100%;
     text-align: center;
     font-size: 2.5rem;
 }
