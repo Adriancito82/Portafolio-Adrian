@@ -2,19 +2,14 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 html, body {
-    width: 100%;
     background-image: radial-gradient(circle at center, #406ac4 0%, #3e66bb 6%, #1b263e 100%);
     color: white;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-main.container {
-    width: 100vw;
 }
 section.header {
     display: flex;
@@ -48,6 +43,7 @@ section.iconos {
     display: flex;
     flex-grow: 1;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
 }
@@ -72,12 +68,13 @@ section.contacto {
     display: flex;
     flex-direction: row;
     justify-content: start;
+    flex-wrap: wrap;
     align-items: center;
     padding: .5rem;
 }
 section.contacto a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     margin-left: 2rem;
 }
