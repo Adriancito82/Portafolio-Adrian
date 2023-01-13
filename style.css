@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html, body {
+    /*max-width: 960px;*/
     background-image: radial-gradient(circle at center, #406ac4 0%, #3e66bb 6%, #1b263e 100%);
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -19,6 +20,7 @@ section.header {
 }
 h1.titulo {
     font-size: 3rem;
+    text-decoration: underline;
 }
 img.imagen {
     width: 100%;
@@ -29,7 +31,7 @@ img.imagen {
 article p {
     width: auto;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 p.texto_iconos{
     text-align: center;
