@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html, body {
+    width: 100%;
     background-image: radial-gradient(circle at center, #406ac4 0%, #3e66bb 6%, #1b263e 100%);
     color: white;
     font-family: 'Roboto', sans-serif;
