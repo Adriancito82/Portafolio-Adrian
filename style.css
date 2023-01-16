@@ -74,8 +74,6 @@ section.contacto {
     padding: .5rem;
 }
 section.contacto a {
-    text-decoration: none;
-    font-size: 1rem;
     color: white;
     margin-left: 2rem;
 }
