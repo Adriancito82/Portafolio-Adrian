@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+
 }
 html, body {
     width: 100%;
@@ -12,21 +13,32 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
 section.header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 h1.titulo {
     font-size: 3rem;
     text-decoration: underline;
 }
+
 img.imagen {
     width: 100%;
     max-width: 300px;
     min-width: 100px;
     border-radius: 1rem;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 article.texto_principal p.texto {
     max-width: 951px;
@@ -34,12 +46,14 @@ article.texto_principal p.texto {
     text-align: center;
     font-size: 1.5rem;
 }
+
 p.texto_iconos{
     text-align: center;
     text-decoration: underline;
     font-size: 2rem;
     font-weight: bold;
 }
+
 section.iconos {
     display: flex;
     flex-grow: 1;
@@ -48,6 +62,7 @@ section.iconos {
     justify-content: center;
     justify-content: space-around;
 }
+
 nav.link {
     display: flex;
     flex-direction: row;
@@ -55,14 +70,17 @@ nav.link {
     align-items: center;
     padding: .5rem;
 }
+
 nav.link p {
     font-size: 2rem;
 }
+
 nav.link a {
     text-decoration: none;
     color: white;
     margin-left: 2rem;
 }
+
 section.contacto {
     text-align: center;
     font-size: 2rem;
@@ -73,10 +91,12 @@ section.contacto {
     align-items: center;
     padding: .5rem;
 }
+
 section.contacto a {
     color: white;
     margin-left: 2rem;
 }
+
 footer {
     width: 100%;
     padding-top: .5rem;
