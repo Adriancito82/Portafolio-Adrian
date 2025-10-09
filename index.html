@@ -2,52 +2,80 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio de Adrián Santana Suárez, Full Stack Developer. HTML, CSS, JS, NodeJS, MongoDB, Vue, GitHub, Postman, PHP, Mysql.">
+
     <link rel="shortcut icon" href="/img/logo Adrián.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
     <script src="index.js" defer></script>
+
     <title>Portafolio Adrián Santana Suárez</title>
 </head>
 
 <body>
-    <main class="container">
+    <header>
         <section class="header">
-            <h1 class="titulo">Adrián Santana Full Stack Developer <img class="logo" src="/img/logo Adrián.png" alt="">
+            <h1 class="titulo">Adrián Santana Suárez <img class="logo" src="/img/logo Adrián.png" alt="">
             </h1>
+
+            <nav class="menu">
+                <a class="link" href="#sobre_mi">Sobre mí</a>
+                <a class="link" href="#tecnologías">Tecnologías</a>
+                <a class="link" href="#proyectos">Proyectos</a>
+                <a class="link" href="#footer">Contacto</a>
+            </nav>
+
             <img src="/img/Adrian.png" alt="Adrián foto perfil" class="imagen">
             <h2 class="comentario">Apasionado del mundo del Cine, Videojuegos y Tecnológico</h2>
         </section>
+    </header>
 
+    <main class="container">
         <article class="texto_principal">
-            <p class="texto">Me defino como una persona
-                tranquila y con buen humor. Desde
-                pequeño me encanta el mundo de
-                los videojuegos, hobby que
-                comparto con mi hija, y el cine. Me
-                crié rodeado de ordenadores lo cual
-                siempre me ha generado curiosidad
-                por la tecnología, pero no fue hasta
-                el año pasado que descubrí el
-                mundo de la programación. Me
-                atrapó de tal manera que decidí que
-                quería ganarme la vida
-                programando. Por eso hice el
-                bootcamp de Reboot Academy y
-                ahora estoy buscando mi primer
-                trabajo como Full Stack Developer.
+            <h2 id="sobre_mi">Sobre mi:</h2>
+            <p class="texto">
+                ¡Hola! Soy Adrián, un programador junior con muchas ganas de seguir creciendo en el mundo del desarrollo
+                web. Desde que
+                empecé a aprender programación, descubrí que me apasiona transformar ideas en experiencias digitales que
+                sean útiles,
+                visuales y fáciles de usar.<br><br>
+
+                Aunque tengo conocimientos tanto en frontend como en backend, me siento especialmente motivado por la
+                parte frontend,
+                donde puedo combinar mi lado creativo con la lógica del código para construir interfaces dinámicas y
+                agradables. Me
+                gusta cuidar los detalles, aprender nuevas herramientas y mejorar constantemente mis habilidades para
+                ofrecer soluciones
+                cada vez más completas.<br><br>
+
+                Durante mi aprendizaje he trabajado con HTML, CSS, JavaScript, Vue, NodeJS, PHP, MySQL y MongoDB, lo que
+                me ha permitido
+                entender cómo se conectan las diferentes partes de una aplicación web y cómo optimizar la comunicación
+                entre el cliente
+                y el servidor.
             </p>
             <p class="texto">
-                Actualmente estoy mejorando mi nivel de ingles y perfeccionando mi habilidad con HTML, CSS y JS. Me
-                gusta Vuetify ya que me interesa mucho la parte de Frontend aunque gracias al curso de Reboot Academy
-                tambien tengo conocimientos del Backend con NodeJS, MongoDB, Postman, Express, NPM.
+                Actualmente, mi objetivo es adquirir experiencia profesional en proyectos reales, especialmente en el
+                área del frontend,
+                donde pueda seguir aprendiendo de otros desarrolladores, aportar mis ideas y crecer dentro de un
+                equipo.<br><br>
+
+                Soy una persona curiosa, responsable y con muchas ganas de aprender. Me entusiasma enfrentar nuevos
+                retos, experimentar
+                con tecnologías y seguir mejorando día a día como desarrollador.<br><br>
+
                 En 2020 y 2021 hice dos cursos en Udemy uno de <em>Fundamentos de la Programación</em> y otro de
                 <em>Diseño Web desde
                     Cero a Avanzado</em> donde tuve mi primer contacto con HTML y CSS.
             </p>
         </article>
-        <p class="texto_iconos">Tecnologías con las que trabajo:</p>
+
+        <h2 id="tecnologías">Tecnologías:</h2>
         <section class="iconos">
             <img src="img/html.png" alt="HTML">
             <img src="img/css.png" alt="CSS">
@@ -60,13 +88,15 @@
             <img src="img/php.png" alt="PHP">
             <img src="img/mysql.png" alt="Mysql">
         </section>
+
         <nav class="link">
-            <p>Proyectos:</p>
+            <h2 id="proyectos">Proyectos:</h2>
             <a href="https://adriancito82.github.io/robbery-to-reboot/" target="_blank" rel="Proyecto juego"
                 title="Proyecto 1 de Rebbot Academy hecho en grupo">Robbery-to-Reboot</a>
             <a href="https://adriancito82.github.io/Lista-de-TODOS/" target="_blank" rel="Proyecto personal"
                 title="Lista de tareas">Lista de Tareas</a>
         </nav>
+
         <section class="contacto">
             <p>Contactame:</p>
             <a href="http://www.linkedin.com/in/adrián-santana-suárez/" target="_blank" rel="noopener noreferrer"><img
@@ -76,8 +106,10 @@
             <a href="mailto:adriansantanadev@gmail.com"><img src="img/gmail.png" alt="Gmail"
                     title="adriansantanadev@gmail.com"></a>
         </section>
-        <footer id="footer">Adrián Santana Suárez Developer &copy </footer>
     </main>
+
+    <footer id="footer">Adrián Santana Suárez Developer &copy </footer>
+
 </body>
 
 </html>

@@ -2,16 +2,49 @@
 
 * {
     box-sizing: border-box;
-
 }
+
 html, body {
     width: 100%;
     background-image: radial-gradient(circle at center, #406ac4 0%, #3e66bb 6%, #1b263e 100%);
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.menu {
+    margin-bottom: 20px;
+    background-color: #1b263e;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #406ac4;
+}
+
+main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 section.header {
@@ -23,7 +56,6 @@ section.header {
 
 h1.titulo {
     font-size: 3rem;
-    text-decoration: underline;
 }
 
 img.imagen {
@@ -38,8 +70,13 @@ img.imagen {
     height: 100px;
     border-radius: 50%;
     vertical-align: middle;
-    margin-right: 10px;
 }
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+
 article.texto_principal p.texto {
     max-width: 951px;
     width: 100%;
