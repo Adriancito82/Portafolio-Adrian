@@ -102,6 +102,28 @@ article.texto_principal p.texto {
     font-size: 1.5rem;
 }
 
+.titulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.certificado {
+    width: 200px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.certificado:hover {
+    transform: scale(1.40);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 p.texto_iconos{
     text-align: center;
     text-decoration: underline;
@@ -195,6 +217,16 @@ footer {
   .imagen {
     max-width: 90%;
   }
+
+    .titulos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificado {
+        width: 80%;
+        max-width: 300px;
+    }
 
   section.iconos {
     flex-direction: column;
