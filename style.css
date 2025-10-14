@@ -20,7 +20,6 @@ header {
 
 .menu {
     margin-bottom: 20px;
-    background-color: #1b263e;
     display: flex;
     justify-content: center;
     gap: 2rem;
