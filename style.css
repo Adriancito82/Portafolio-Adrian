@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    background-color: #1b263e;
 }
 
 .link {
@@ -35,6 +36,11 @@ header {
     color: #406ac4;
 }
 
+.titulo {
+    text-align: center;
+    margin: 1rem;
+    color: #27D8F5;
+}
 main {
     padding: 1rem;
     display: flex;
@@ -51,28 +57,16 @@ section.header {
     align-items: center;
 }
 
-h1.titulo {
-    font-size: 3rem;
+.comentario {
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: none;
 }
 
-#sobre_mi {
+h2 {
     margin-top: 2rem;
-    text-align: center;
-}
-
-#experiencia {
-    margin-top: 2rem;
-    text-align: center;
-}
-
-#proyectos {
-    margin-top: 2rem;
-    text-align: center;
-}
-
-#contacto {
-    margin-top: 2rem;
-    text-align: center;
+    text-align: row;
+    text-decoration: underline;
 }
 
 img.imagen {
@@ -95,10 +89,8 @@ img.imagen {
 }
 
 article.texto_principal p.texto {
-    max-width: 951px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
+    text-align: row;
+    font-size: 1rem;
 }
 
 .titulos {
@@ -182,6 +174,7 @@ nav.link a {
 footer {
     width: 100%;
     padding-top: .5rem;
+    margin-bottom: .5rem;
     text-align: center;
     color: grey;
 }
